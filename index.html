@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/style.css">
     <title>Campo Minato</title>
 </head>
 <body>
-    
+
+    <header class="d-flex justify-content-around align-items-center pe-4 ps-4">
+        <h1 class="text-white text-center fw-bolder">Griglia Campo Minato</h1>
+        <label for="livello" class="text-white fw-bolder">Seleziona la Difficoltà </label>
+        <select name="livello" id="liv">
+            <option value="0">Facile</option>
+            <option value="1">Medio</option>
+            <option value="2">Difficile</option>
+        </select>
+    </header>
+
+
+
+    <div class="container hide pt-5">
+    </div>
+    <div id="bottone" class="text-center pt-5 pb-5">
+        <button type="button" class="btn btn-outline-warning">Inizia a Giocare</button>
+    </div>
+
+
+
+
+
 
     <script src="js/script.js"></script>
 </body>

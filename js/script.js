@@ -75,3 +75,5 @@ function createBombs (numberBox) {
     return bomb;
 }
 
+
+
